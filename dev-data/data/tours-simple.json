@@ -205,35 +205,6 @@
       "2022-01-16,10:00",
       "2022-12-12,10:00"
     ]
-  },
-  {
-    "id": 9,
-    "name": "Kingfisher",
-    "duration": 10,
-    "difficulty": "Insane"
-  },
-  {
-    "id": 10,
-    "name": "Durga Tour",
-    "duration": 9,
-    "difficulty": "Insane"
-  },
-  {
-    "id": 11,
-    "name": "Durga Tour",
-    "duration": 9,
-    "difficulty": "Insane"
-  },
-  {
-    "id": 12,
-    "name": "Durga Tour",
-    "duration": 9,
-    "difficulty": "Insane"
-  },
-  {
-    "id": 13,
-    "name": "Durga Tour",
-    "duration": 9,
-    "difficulty": "Insane"
   }
+
 ]

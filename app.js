@@ -19,13 +19,12 @@ const app = express();
 // TODO Middlewares
 app.use(morgan("dev"))
 
+// TODO Adding query parser
+app.set('query parser', 'extended');
+
 app.use(cors());
 // TODO Middleware
 app.use(express.json());
-
-
-
-
 
 const userRouter=require('./routes/userRoutes');
 const tourRouter=require('./routes/tourRoutes');
@@ -34,7 +33,6 @@ const tourRouter=require('./routes/tourRoutes');
 // const categoryRouter=require('./routes/categoryRoutes');
 // const AppError = require("./utils/AppError");
 // const globalErrorHandler=require("./controllers/errorController")
-
 
 
 app.use('/api/v1/users',userRouter);

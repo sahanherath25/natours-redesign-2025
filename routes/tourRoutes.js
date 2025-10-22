@@ -9,9 +9,11 @@ router.param("id",(req, res, next,value)=>{
     next()
 })
 
+// TODO Alias Route
 
-router.route("/").get(tourControllers.addNewTour)
+router.route("/").get(tourControllers.getAllTours)
 router.route("/").post(tourControllers.addNewTour)
+router.route("/top-5-tours").get(tourControllers.aliasTopTours,tourControllers.sahanTest)
 
 
 router.route("/:id").get(tourControllers.checkBody,tourControllers.fetchOneTour)

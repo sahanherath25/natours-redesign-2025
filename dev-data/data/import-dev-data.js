@@ -10,7 +10,7 @@ dotenv.config({
 });
 
 // const DB = process.env.MONGODB_PROD_URI.replace('<PASSWORD>', process.env.MONGODB_PASSWORD);
-const DB ="mongodb+srv://sahanherath555:BHtO1ifLyc8ZTquQ@cluster0.4ohb8bf.mongodb.net/reddit-clone?retryWrites=true&w=majority&appName=Cluster0";
+// const DB ="";
 
 // const DB = "mongodb://localhost:27017/natours-redesign"
 

@@ -105,13 +105,13 @@ exports.getAllTours = async (req, res, next) => {
 
     // let sahan=req.sahan;
 
-    console.log("SAHAN OBJ ",sahan)
+    // console.log("SAHAN OBJ ",sahan)
 
     // TODO Convert String to Integer Method 1
-    // const id = req.params.id * 1;
+    const id = req.params.id * 1;
 
     // TODO Convert String to Integer Method 2
-    // const id2=parseInt(req.params.id);
+    const id2=parseInt(req.params.id);
 
     // TODO 1.Build the Query
 
@@ -221,9 +221,9 @@ exports.getAllTours = async (req, res, next) => {
 
     res.status(200).json({
         status: "success",
-        // message: `Found ${foundTours.length} Tours `,
+        message: `Found ${foundTours.length} Tours `,
         data: {
-            // tour: foundTours
+             tour: foundTours
         }
     })
 }
